@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pmagpy.pmag as pmag
 import pandas as pd
+import bababooey
 
 # PALEOMAGNETIC DATA #
 
