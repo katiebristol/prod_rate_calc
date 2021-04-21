@@ -1,6 +1,7 @@
 # Production Rate Calculator
 
 **This algorithm is currently in development.**
+It is not usable in its current state. 
 
 ## Purpose
 
