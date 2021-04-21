@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 import pmagpy.pmag as pmag
 import pandas as pd
 
+# PALEOMAGNETIC DATA #
+
 x = np.linspace(0,70,14) #will report paleolatitude values from 0-70 Million years ago, in 5 Myr increments 
 vals = [] #storage for pmagpy data 
 for i in x:
@@ -14,8 +16,6 @@ for i in x:
 df = pd.DataFrame(vals) #create a dataframe with the pmagpy data
 df.columns = ['Age', 'Paleolat', 'Dec','Inc','Pole_lat','Pole_Long'] #rename the columns
 Paleolat = df['Paleolat'] #call paleolat whenever you want all the paleolatitudes for some time frame
-
-# PALEOMAGNETIC DATA #
 
 IAGA_database = pd.read_excel('IAGA_database.xlsx') #excel sheet with all pmag data. 0-70 Ma, all criteria
 
