@@ -314,7 +314,7 @@ len(this_SPhi)
 # tv2 = 107
 tv
 
-Natoms = pd.read_csv('Natoms', sep=" ", header=None) #this is just a single number, from Nat's code
+
 Onx3HeT = pd.read_csv('Onx3HeT', header = None)
 #csv = np.genfromtxt ('Onx3HeT')
  #This is an array len = 200, cross sections apparently from pers. comm w/N Nat
